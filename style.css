@@ -1,0 +1,15 @@
+#header{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    width: 100px;
+    height: 10px;
+}
+
+header #nav-bar{
+    width: 70%;
+}

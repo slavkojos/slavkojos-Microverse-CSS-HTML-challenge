@@ -31,3 +31,49 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form #submit{
+    width: 200px;
+    background-color: goldenrod;
+
+}
+
+#features{
+    width: 60vw;
+    margin: 0 auto
+}
+
+#features div{
+    display: flex;
+    margin: 40px 0;
+}
+
+#features div img{
+    width:  100px;
+    margin-right: 30px;
+}
+
+#features div .content{
+  display: flex;
+  flex-direction: column;
+}
+
+#features div .content p{
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+  }
+
+
+#features div h5{
+    font-weight: 800;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
