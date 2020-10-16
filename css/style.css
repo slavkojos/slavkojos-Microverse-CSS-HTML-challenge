@@ -128,6 +128,26 @@ form #submit{
       background-color: yellow;
       color:black;
       padding: 10px 15px;
+  }
+
+  footer{
+      width: 80vw;
+      height: 100px;
+      margin: 0 auto;
+      background-color: #cccccc;
+
+  }
+
+  footer .content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
 
   @media only screen and (max-width: 600px) {
     .columns {
